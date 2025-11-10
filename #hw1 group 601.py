@@ -14,7 +14,7 @@ class Person:
 
         print(f'Здравствуйте! Меня зовут {self.name}, я родился(ась) в {self.birth_date}, '
               f'моя профессия — {self.occupation}, высшее образование {education_status}.')
-
+ 
 # создаём объекты
 person_sean = Person(name='Шон', birth_date='1830-04-09', occupation='учитель по пианино', higher_education=True)
 person_aya = Person(name='Ая', birth_date='2145-12-20', occupation='архитектор безопасности', higher_education=True)
